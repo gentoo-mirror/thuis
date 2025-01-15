@@ -26,7 +26,7 @@ DEPEND="
 
 S="${WORKDIR}/${MY_P}"
 
-DOCS=( readme.txt )
+DOCS=( readme.md )
 
 src_prepare() {
     sed -i "s:DESTINATION .*:DESTINATION /usr/share/doc/${PF}:" \
