@@ -36,7 +36,7 @@ src_prepare() {
     sed -i '/install(FILES /d' \
         CMakeLists.txt || die
 
-    cmake-utils_src_prepare
+    cmake_src_prepare
 }
 
 src_configure() {
@@ -44,6 +44,6 @@ src_configure() {
         -DCSFML_BUILD_DOC=$(usex doc)
     )
 
-    cmake-utils_src_configure
+    cmake_src_configure
 }
 
