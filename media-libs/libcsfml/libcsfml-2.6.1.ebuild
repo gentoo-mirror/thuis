@@ -32,10 +32,6 @@ src_prepare() {
     sed -i "s:DESTINATION .*:DESTINATION /usr/share/doc/${PF}:" \
         doc/CMakeLists.txt || die
 
-    # Have ebuild DOCS handle this.
-    sed -i '/install(FILES /d' \
-        CMakeLists.txt || die
-
     cmake_src_prepare
 }
 
@@ -47,3 +43,6 @@ src_configure() {
     cmake_src_configure
 }
 
+src_install() {
+    cmake_src_install
+}
