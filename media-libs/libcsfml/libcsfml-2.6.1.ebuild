@@ -3,7 +3,7 @@
 
 # Taken from https://gitlab.com/plexvola/vaacus/-/blob/master/media-libs/libcsfml/libcsfml-2.5.ebuild
 
-EAPI=7
+EAPI=8
 
 inherit cmake
 
@@ -39,10 +39,6 @@ src_configure() {
     )
 
     cmake_src_configure
-}
-
-src_compile() {
-    cmake_build
 }
 
 src_install() {
