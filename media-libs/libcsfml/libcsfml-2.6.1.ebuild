@@ -22,6 +22,8 @@ DEPEND="
     doc? ( app-doc/doxygen )
 "
 
+S="${WORKDIR}/CSFML-${PV}"
+
 DOCS="readme.md"
 
 src_prepare() {
