@@ -14,7 +14,7 @@ SRC_URI="https://github.com/SFML/CSFML/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="ZLIB"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc"
+IUSE="debug doc"
 
 RDEPEND="=media-libs/libsfml-2.6.1"
 DEPEND="
