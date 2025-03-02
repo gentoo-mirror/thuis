@@ -1,11 +1,12 @@
 # Thuis
 
-My personal Gentoo overlay.
+An overlay that feels like home.
 
-Don't use if you value stability, stuff will break frequently.
+Don't use if you value stability, stuff might break since I am fairly new to
+this.
 
 ## How to add with eselect
 
 ```sh
-# eselect repository add thuis git https://github.com/emneo-dev/thuis.git
+# eselect repository add thuis git https://codeberg.org/emneo/thuis.git
 ```
