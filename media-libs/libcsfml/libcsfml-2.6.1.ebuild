@@ -7,14 +7,12 @@ EAPI=7
 
 inherit cmake
 
-MY_P="CSFML-${PV}"
-
 DESCRIPTION="C bindings for SFML"
 HOMEPAGE="https://www.sfml-dev.org/ https://github.com/SFML/CSFML"
 SRC_URI="https://github.com/SFML/CSFML/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="ZLIB"
-SLOT="0/$(ver_cut 1-2)"
+SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
@@ -24,9 +22,7 @@ DEPEND="
     doc? ( app-doc/doxygen )
 "
 
-S="${WORKDIR}/${MY_P}"
-
-DOCS=( readme.md )
+DOCS="readme.md"
 
 src_prepare() {
     sed -i "s:DESTINATION .*:DESTINATION /usr/share/doc/${PF}:" \
@@ -36,11 +32,15 @@ src_prepare() {
 }
 
 src_configure() {
-    local mycmakeargs=(
+    local MYCMAKEARGS=(
         -DCSFML_BUILD_DOC=$(usex doc)
     )
 
     cmake_src_configure
+}
+
+src_compile() {
+    cmake_build
 }
 
 src_install() {
