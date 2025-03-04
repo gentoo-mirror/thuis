@@ -2,13 +2,13 @@
 <repositories version="1.0">
   <repo quality="experimental" status="unofficial">
     <name>thuis</name>
-      <description lang="en">an overlay that feels like home</description>
-	  <homepage>https://codeberg.org/emneo/thuis</homepage>
-        <owner type="person">
-            <name>Emily Flion</name>
-            <email>emneo@kreog.com</email>
-        </owner>
-		<source type="git">git+https://codeberg.org/emneo/thuis.git</source>
-		<feed>https://codeberg.org/emneo/thuis.rss</feed>
+    <description lang="en">An overlay that feels like home</description>
+    <homepage>https://codeberg.org/emneo/thuis</homepage>
+    <owner type="person">
+      <email>emneo@kreog.com</email>
+      <name>Emily Flion</name>
+    </owner>
+    <source type="git">git+https://codeberg.org/emneo/thuis.git</source>
+    <feed>https://codeberg.org/emneo/thuis.rss</feed>
   </repo>
 </repositories>
