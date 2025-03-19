@@ -10,3 +10,11 @@ this.
 ```sh
 # eselect repository add thuis git https://codeberg.org/emneo/thuis.git
 ```
+
+## Packages
+
+| package | version | description |
+| --- | --- | --- |
+| [media-libs/libcsfml](https://github.com/SFML/CSFML) | 2.6.1 ~amd64 | C bindings for SFML |
+| [dev-vcs/git-who](https://github.com/sinclairtarget/git-who) | 0.6 ~amd64 | Git blame for file trees |
+
