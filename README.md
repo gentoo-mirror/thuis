@@ -8,7 +8,7 @@ this.
 ## How to add with eselect
 
 ```sh
-# eselect repository add thuis git https://codeberg.org/emneo/thuis.git
+# eselect repository enable thuis
 ```
 
 ## Packages
