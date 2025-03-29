@@ -1,3 +1,3 @@
 dev-cpp/flecs 4.0.5: A fast entity component system (ECS) for C & C++
-dev-vcs/git-who 0.6: Git blame for file trees
+dev-vcs/git-who 0.7: Git blame for file trees
 media-libs/libcsfml 2.6.1: C bindings for SFML
