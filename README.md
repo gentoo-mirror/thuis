@@ -16,5 +16,5 @@ this.
 | package | version | description |
 | --- | --- | --- |
 | [media-libs/libcsfml](https://github.com/SFML/CSFML) | 2.6.1 ~amd64 | C bindings for SFML |
-| [dev-vcs/git-who](https://github.com/sinclairtarget/git-who) | 0.6 ~amd64 | Git blame for file trees |
+| [dev-vcs/git-who](https://github.com/sinclairtarget/git-who) | 0.7 ~amd64 | Git blame for file trees |
 | [dev-cpp/flecs](https://github.com/SanderMertens/flecs) | 4.0.5 ~amd64 | A fast entity component system (ECS) for C & C++ |

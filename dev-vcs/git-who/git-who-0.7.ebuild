@@ -10,7 +10,7 @@ DESCRIPTION=" Git blame for file trees "
 HOMEPAGE="https://github.com/sinclairtarget/git-who"
 SRC_URI="
 	https://github.com/sinclairtarget/git-who/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
-	https://github.com/emneo-dev/gentoo-deps/releases/download/git-who-0.6/git-who-0.6-deps.tar.xz -> ${P}-deps.tar.xz
+	https://github.com/emneo-dev/gentoo-deps/releases/download/git-who-${PV}/git-who-${PV}-deps.tar.xz -> ${P}-deps.tar.xz
 "
 
 LICENSE="MIT"
